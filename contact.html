@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mission 2</title>
+    <link rel="stylesheet" href="mission-02.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- !header animation -->
+    <header class="header">
+      <div class="shadow-dance-container">
+        <h1 class="shadow-dance-text">Contact me!</h1>
+      </div>
+    </header>
+
+    <!-- !Navbar -->
+    <nav class="navbar">
+      <a class="nav-link" href="mission-02.html">home</a>
+      <a class="nav-link" href="about-me.html">About me</a>
+      <a class="nav-link" href="contact.html">contact</a>
+    </nav>
+
+    <div class="left-head">
+      <form
+        class="form"
+        action="mailto:someone@email.com"
+        method="post"
+        autocomplete="on"
+      >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <!-- Email field -->
+        <br />
+        <label for="email">Email:</label>
+        <input class="email" id="email" required />
+        <br />
+
+        <!-- Radio field -->
+        <br />
+        <label>What do you wanna talk about?</label>
+        <br />
+        <input type="radio" id="Anime" name="subject" value="Anime" />
+        <label for="Anime">Anime</label>
+
+        <br />
+        <input type="radio" id="Games" name="subject" value="Games" />
+        <label for="Games">Games</label>
+
+        <br />
+        <input type="radio" id="Characters" name="subject" value="Characters" />
+        <label for="Characters">Characters</label>
+        <br />
+
+        <!-- Message field -->
+        <br />
+        <label for="message" class="message">Message:</label>
+        <br />
+        <textarea
+          class="textarea"
+          name="message"
+          id="message"
+          rows="5"
+          cols="25"
+        ></textarea>
+
+        <!-- Submit button field -->
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <!-- !footer -->
+    <footer class="footer">
+      Want to see more?
+      <a href="https://youtu.be/dQw4w9WgXcQ?si=zsx_jRwbhvBoBME4" target="_blank"
+        >CLICK ME!!!</a
+      >
+    </footer>
+  </body>
+</html>
